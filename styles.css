@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: #000000;
+    margin: 0 auto;
+    max-width: 1300px;
+    color:#D9D9D9;
+  }
+
+  .twitter-main {
+    display: flex;
+  }
+
+  .twitter-main-child {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .child-one-list{
+    padding-right: 20%;
+  }
+
+  .child-zero{
+    width: 300px;
+  }
+
+  .child-one{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+  }
+
+  .child-one button{
+    background-color: #1D9BF0;
+    padding: 1rem 4.5rem;
+    border: 0;
+    border-radius: 25px;
+  }
+
+  .child-one a{
+    color: white;
+    font-size: 15px;
+  }
+
+  .child-one .fab,.child-one .fas,.child-one .far{
+    font-size: 25px;
+  }
+
+  .child-one ul{
+      font-size: 1.2rem;
+      list-style: none;
+      line-height: 3.6rem;
+  }
+
+  .child-one span{
+      padding-left: 1rem;
+  }
+
+  .noti-badge{
+    position: relative;
+  }
+
+  .noti-badge > span:nth-child(3) {
+    position: absolute;
+    bottom: 55%;
+    left: 4%;
+    text-align: center;
+    background-color: #1D9BF0;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+  }
+
+  .noti-badge > span:nth-child(4) {
+    position: absolute;
+    bottom: 25%;
+    right: 86%;
+
+    text-align: center;
+  }
+
+  .fa-twitter{
+      padding-top: 10%;
+  }
+
+  /* div two */
+
+  .child-two {
+    width: 600px;
+  }
+  .child-three {
+    width: 400px;
+  }
+
+  .child-one-main{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin-top: 5%;
+  }
+
+  .child-one-main-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    height: auto;
+    background-image: url("./images/profileImg.jpg");
+  }
+
+  .child-one-main span{
+    width:60%;
+    font-size: 13px;
+  }
+
+
+  .child-one-main i{
+    width:20%;
+    font-weight: 400;
+  }
+
+  .child-two-header{
+    width: 100%;
+    border-left: 2px solid #2F3336;
+    border-right: 2px solid #2F3336;
+    
+  }
+
+  .arrow-icon{
+    display: inline-block;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+  }
+
+  .header-info span{
+    font-weight: 700;
+  }
+
+  .header-info p{
+    font-size: 13px;
+    color: #767c80;
+    padding-left: 9%;
+  }
+
+  .profile-main{
+    border-left: 2px solid #2F3336;
+    border-right: 2px solid #2F3336;
+  }
+
+  .profile-main img{
+    max-width: 100%;
+  }
+
+  .profile-main button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 1.2rem;
+    font-size: 15px;
+    font-weight: 600;
+    background: transparent;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin-right: 2%;
+  }
+
+  .profile-img{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .profile-info{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding-left: 2%;
+    font-size: 14px;
+    border-left: 2px solid #2F3336;
+    border-right: 2px solid #2F3336;
+  }
+
+  .profile-info a{
+    text-decoration: none;
+    color: #1D9BF0;
+  }
+
+  .profile-info i{
+    margin-left: 1%;
+  }
+
+  .profile-img img{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+  }
+
+  .profile-info span{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .profile-info p:nth-child(2){
+    font-size: 15px;
+    padding-bottom: 2%;
+    color: #767c80;
+  }
+  
+  .profile-info p:nth-child(5){
+    padding-bottom: 2%;
+  }
+
+  .profile-info p:nth-child(6){
+    padding-bottom: 2%;
+    color: #767c80;
+
+  }
+
+  .profile-info p:nth-child(7){
+    padding-bottom: 2%;
+    font-size: 15px;
+    color: #767c80;
+  }
+
+  .profile-num{
+    color: white;
+  }
+
+  .center-div-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-left: 2px solid #2F3336;
+    border-right: 2px solid #2F3336;
+  }
+
+  .center-div-buttons button{
+    padding: 5px 1rem;
+    font-size: 15px;
+    background: transparent;
+    border: 0;
+    color: #767c80;
+    cursor: pointer;
+  }
+
+  .center-div-buttons button:nth-child(1){
+    color: white;
+    font-size: 17px;
+    border-bottom: 3px solid #1D9BF0;
+  }
+
+  .center-div-buttons button:hover{
+    background-color: #161616;
+  }
+
+  .center-div-tweet{
+    width: 100%;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 2px solid #2F3336;
+    border-left: 2px solid #2F3336;
+    border-right: 2px solid #2F3336;
+  }
+
+  .tweet-img{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+  } 
+
+  .tweet-info{
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+  }
+
+
+
+  .tweet-info p:first-child{
+    color: #767c80;
+  }
+
+  .tweet-info p span:first-child{
+    font-size: 15px;
+    font-weight: 550;
+    color: #fff;
+  } 
+
+  .tweet-info p:nth-child(2){
+    padding-bottom: 3%;
+  }
+
+  .tweet-info p:nth-child(4){
+    padding-bottom: 3%;
+  }
+
+  .tweet-info p:nth-child(5){
+    padding-bottom: 3%;
+  }
+
+  .tweet-info p a{
+    text-decoration: none;
+    color: #1D9BF0;
+  }
+
+  .tweet-more{
+    width: 10%;
+    display: flex;
+    justify-content: right;
+  }
+
+  .tweet-info-icon{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    color: #767c80;
+  }
+
+  .tweet-more{
+    color: #767c80;
+  }
+
+  /* third div */
+
+  .child-three-input{
+    display: flex;
+    justify-content: center;
+    width: 100%
+  }
+
+  .child-three-input input{
+    width: 80%;
+    padding: 0.7rem 2rem;
+    color: #fff;
+    border-radius: 20px;
+    margin: 10px 0;
+    background-color: #202327;
+    border: 0;
+  }
+
+  .child-third-wht-happen{
+    padding: 1rem;
+    margin-top: 0.5rem;
+    width: 80%;
+    background-color: #15181C; 
+    border-radius: 20px;
+  }
+
+  .child-third-wht-happen span{
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .child-third-wht-happen > div {
+    font-size: 15px;
+    padding: 0.8rem 0;
+  }
+
+  .child-third-wht-happen > div p:nth-child(1){
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  
+  .child-third-wht-happen > div p:nth-child(2){
+    color: #767c80;
+  }
+
+  .happen-two p:nth-child(3){
+    color: #767c80;
+  }
+
+  .happen-seven a{
+    text-decoration: none;
+    color: #1D9BF0;
+  }
+
+  .child-third-people{
+    padding: 1rem;
+    margin-top: 0.5rem;
+    width: 80%;
+    background-color: #15181C; 
+    border-radius: 20px;
+  }
+
+  .people-one{
+    margin-top: 2rem;
+  }
+
+  .people-title span{
+    font-size: 22px;
+    width: 100%;
+    font-weight: 600;
+  }
+
+  .child-third-people > div {
+    display: flex;
+    font-size: 13px;
+  }
+
+  .people-name{
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+  }
+
+  .people-name p{
+    justify-content: flex-start;
+    width: 80%;
+  }
+
+  .people-name p:nth-child(2){
+    color: #767c80;
+    font-size: 11px;
+  }
+
+  .people-one a{
+    
+    padding: 0.2rem 1rem;
+    height: 80%;
+    background-color: #EFF3F4;
+    font-size: 13px;
+    border-radius: 20px;
+    border: 0;
+    color: #333;
+
+  }
+
+  /* media */
+
+  @media screen and (max-width: 1050px) {
+    .menu-name span:nth-child(2),.menu-name button{
+      display: none;
+    }
+    .child-zero{
+      width:90px
+    }
+    .child-one{
+      width: 30px;
+    }
+    .child-one-main span,.child-one-main i{
+      display: none;
+    }
+    .child-one-main div img{
+      margin-left: 80%;
+    }
+    .noti-badge > span:nth-child(4) {
+      position: absolute;
+      bottom: 25%;
+      right: 30%;
+      /* top: 1%; */
+  
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .child-three{
+      display: none;
+    }
+    .child-two{
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .child-one{
+      display: none;
+    }
+    .child-zero{
+      display: none;
+    }
+    .child-two{
+      width: 100%;
+    }
+    .header-info p{
+      padding-left: 14%;
+    }
+  }
